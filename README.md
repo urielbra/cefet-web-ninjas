@@ -23,10 +23,11 @@ Aqui estão os itens que precisam ser implementados:
 1. Logomarca
    - Reduzir o tamanho da logomarca (está muito grande) para `200px` de largura
      (`width`)
-   - Centralizar (veja FAQ)
-1. Todas as imagens e vídeos no corpo da página (exceto logo)
+1. Todas as imagens e vídeos no corpo da página
    - Quebrar linha em vez de aparecer "dentro" do parágrafo
-   - Centralizar
+   - Centralizar (veja FAQ)
+1. Todas as imagens (exceto logo - use o seletor de negação para isso)
+   - Deixar com as bordas arrendondadas (procure na Web sobre a propriedade `border-radius`
 1. Títulos da página (`<h1>` e `<h2>`)
    - Usar outra fonte, que não seja a padrão (`font-family`)
      - Você pode usar a ferramenta de desenvolvedor do navegador para ver
@@ -36,13 +37,16 @@ Aqui estão os itens que precisam ser implementados:
      - Sugestão: variar as propriedades `color` e/ou
        `text-decoration: underline` (sublinhado) e `text-decoration: none`
 1. Links externos
-   - Coloque um ícone (`<img>`) de globo (`img/globo.png`) à esquerda dos
+   - Coloque um ícone de globo (`img/globo.png`) à esquerda dos
      hiperlinks que apontam para URLs externas
      - Dica: você pode usar esta imagem e você precisará das propriedades
       `background-image`, `background-repeat` (veja FAQ) e `padding-left`
+      - Faça isso usando apenas CSS
+      - Faça essa parte sem alterar o HTML (ou seja, sem usar classes/ids)
 1. "Notas" (no passo 2 e nas referências)
    - Esmaeça (deixe mais "apagadinho") o texto das notas para que não chamem tanta atenção quanto o texto
      principal
+     - você pode usar a cor da fonte para isso ou a propriedade opacity
 1. Número do passo (para se tornar ninja)
    - Aumente a fonte e mude a cor e o fundo do número do passo
    - Aumente a fonte (_e.g._, `font-size: 20px`) do "nome do passo"
