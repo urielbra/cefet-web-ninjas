@@ -1,0 +1,119 @@
+
+	
+	body{
+		 margin-left: 10%;
+		  margin-right: 10%;
+		  background-image: url(img/images.png); /* imagem de fundo para a página */
+		  /* background-repeat: no-repeat; */ 
+
+
+	}
+
+	ul{
+		list-style-type: square /*Bloco quadrado*/
+	}
+	
+
+
+	
+	
+		img {
+			display: block; /*Deixa a imagem no centro*/
+	  		margin-left: auto;
+	  		margin-right: auto;
+	  		border-radius: 0px 0px;
+		}
+
+		img[src="img/print-ninja-logo.png"]{  /*Verifica se a imagem está com esse src para fazer isso*/
+		 	display: block; /*Deixa a imagem no centro*/
+	  		margin-left: auto;
+	  		margin-right: auto;
+	  		border-radius: 0px 0px;
+			
+		}
+
+	
+
+	
+	p{
+		font-family: "Courier New" ,sans-serif;
+		font-size: 18px;
+		line-height: 1.5; 
+		color: #000000;
+	}
+
+	em{
+		font-family: "Courier New" ,sans-serif;
+		font-size: 18px;
+		line-height: 1.5; 
+		color: #000000;
+	}
+
+	h1{
+		font-family: "BAZOOKA" ,sans-serif;	
+	}
+
+	h2{
+		font-family: "COPPERPLGOTH BD BT" ,sans-serif;	
+	}	
+	
+
+
+	
+	iframe{
+			border: 6px solid black;
+		 	border-radius: 20px 20px; 
+
+	}
+
+
+
+	
+
+	
+
+	li{
+		font-size: 16px;
+		font-family: "Lucida Console", Monaco, monospace
+	}
+
+	
+
+
+
+	
+		a{
+			font-size: 16px;
+			font-family: ;
+		}
+
+		a:link{ /* Todos os links padrão tem essa cor  */
+			color : darkblue;
+
+		}
+
+		a:visited{ /* Todos os links visitados pegam essa cor  */
+			color : #3C004A
+
+		}
+
+		a:hover{  /* Todos os links que o mouse passa ficam dessa cor  */
+			color : darkgray;
+
+		}
+
+		a:hover{  /* Todos os links que o mouse passa ficam dessa cor  */
+			color : white;
+
+		}			
+
+
+
+	
+
+	
+	hr{
+		color: #000000;
+			
+	}
+	
